@@ -1,0 +1,91 @@
+body{
+    font-family: arial, helvetica;
+    background: #e8e8e8;
+    background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIgAtQMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIG/8QAGRABAQEAAwAAAAAAAAAAAAAAABEBITFh/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECBv/EABgRAQEBAQEAAAAAAAAAAAAAAAARATES/9oADAMBAAIRAxEAPwDtQHFumAADQBFRQAAFQAAANAEABQAAAAABAVRAFQAAAUQBRAFEAVAAAAVAFEAUQAOGQVoZpRGhEFaGQGhlQURKI0MgrSagC0qAKrIDRrIC0QBFZqiqICKIAoiUGhAFEAUQWb0VARSgAUolBRAFEAQZUaUSgkUQCLeEwFzYkUqC3CatKgUmrmw3UQp5apWRNXMaESosaGaA1SslBoYoCVWKVWo3Ss0oRqlZpUI1Ss0CNUrIEapWShGqVmlUi1WKoRorFKEbqVmlCNVEqUI1RnsBKVmlG41VZpQaGKtBoZAaGalBsrFKDVKlAWlZKEauFZpQjVKzShFpWalFjYxVCM5q1ilGo1SslIRpWaUhGhm6XSEaRKUhFKzQhGqVmlIRqrWKUhG6lZpQjVSpUoRupWabpCNUYoRYlKCtLSgEKUBIUoBClAIX0oBClAWFKgEKUAKboAlKAqVQB//Z);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    justify-content: space-between;
+}
+
+nav ul {
+    margin-top: 12%;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 1.2rem;
+    padding-right: 2rem;
+}
+a {
+    color: darkred;
+    scroll-behavior: 2px;
+}
+
+section {
+    max-width: 1300px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.principal {
+    width: 100%;
+    height: 650px;
+    background-image: url("../images/light_header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    color: black;
+}
+
+.principal div {
+    padding: 5%;
+}
+
+.principal img {
+    max-width: 60%;
+    margin-bottom: 5%;
+}
+
+
+.secundario {
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+}
+
+.secundario div {
+    width: 33%;
+    padding: 2%;
+}
+
+.secundario div img {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+
+
